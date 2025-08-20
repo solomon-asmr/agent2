@@ -107,8 +107,7 @@ RETAIL_CATALOG_ID=default_catalog
 RETAIL_SERVING_CONFIG_ID=default_search
 
 # Google API Keys
-GEMINI_API_KEY=AIzaSyBwzIzkJELZMTijb-R_Kcea2x0rteeJ3F8
-
+GEMINI_API_KEY= your gemini api key
 # Google Cloud Authentication (for Vertex AI)
 GOOGLE_APPLICATION_CREDENTIALS=C:\Users\[USERNAME]\gcp-credentials\[YOUR-KEY-FILE].json
 GOOGLE_GENAI_USE_VERTEXAI=1
@@ -131,9 +130,8 @@ DATABASE=ecommerce.db
 GOOGLE_GENAI_USE_VERTEXAI=1
 
 # Google API Keys (use same as main config)
-GOOGLE_API_KEY=AIzaSyBwzIzkJELZMTijb-R_Kcea2x0rteeJ3F8
-GEMINI_API_KEY=AIzaSyBwzIzkJELZMTijb-R_Kcea2x0rteeJ3F8
-
+GOOGLE_API_KEY=......................
+GEMINI_API_KEY=......................
 # Google Cloud Configuration (required if GOOGLE_GENAI_USE_VERTEXAI=1)
 GOOGLE_CLOUD_PROJECT=elemental-day-467117-h4
 GOOGLE_CLOUD_LOCATION=us-central1
